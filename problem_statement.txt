@@ -1,0 +1,20 @@
+write a bash programe such that :
+    if the user run the program and want to find a "hot word" in all the file
+    present in the directory.
+    
+    it will create a new directory who's name is given by user and copy all the 
+    file containing the that perticular "hot word" in the new directory.
+    and all the file in new directory appended with the line number in which the 
+    "hot word" is found.
+
+    "The "hot words" in this is not case sensitive "
+
+To use this program in linux any directory you presently working
+    copy its path and paste it in the file present in your owner folder named ".bashrc"
+    such that :
+
+            PATH="path you coppied:${PATH}"
+            eg:
+
+            PATH="/home/abc/shellscript/project:${PATH}"
+            
