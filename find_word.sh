@@ -13,7 +13,7 @@ for myfile in *
 do
     if [ -f "$myfile" ]; then
         echo "$myfile is a file ."
-        check=$(grep -ni "sachin" "$myfile")
+        check=$(grep -ni "$hot_word" "$myfile")
         if [ -z "$check" ];then
             echo "--------------------------"
             echo ""
